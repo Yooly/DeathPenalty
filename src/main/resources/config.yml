@@ -1,0 +1,22 @@
+#掉落钱  可以为固定值也可以为百分比
+Money: '100'
+#掉落经验  可以为固定值也可以为百分比
+Exp: '30%'
+#掉落物品  固定值整数
+Item: 4
+#死亡buff设置
+Buff:
+  #迟缓状态持续时间
+  SlowTime: 120
+  #失明状态持续时间
+  BlindnessTime: 120
+  #反胃状态持续时间
+  ConfusionTime: 120
+Message:
+  DeathDrop: '§d你因为死亡掉落了:'
+  Money: '钱'
+  Exp: '经验'
+  GiveBuff: '§d重生后你感到非常虚弱.'
+#多世界设置  注意！这里是不启用插件的世界名
+Worlds:
+- Example
